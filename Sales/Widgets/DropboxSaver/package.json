@@ -1,0 +1,20 @@
+{
+    "name": "DropboxSaver",
+    "author": "Redwan Hilali",
+    "version": "1.0.0",
+    "copyright": "(c) 2013 Redwan Hilali",
+	"repository": {
+	    "type": "git",
+	    "url": "https://github.com/hredwan/wakandawidgets.git"
+	},
+	"keywords": ["wakanda", "widget", "dropbox", "saver", "dropin"],
+	"engines": {"wakanda" : ">= 6"},
+	"license": "MIT", 
+    "loadDependencies": [
+    	{"id": "Widget_V2"},
+    	{"id": "DropboxSaver/lib/dropins.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "DropboxSaver/widget.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "DropboxSaver/css/widget.css", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "DropboxSaver/designer.js", "studioOnly": true, "version": "1.0.0", "path": "WIDGETS_CUSTOM"}
+    ]
+}

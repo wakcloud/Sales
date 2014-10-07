@@ -1,0 +1,16 @@
+﻿{
+    "name": "theme1",
+    "author": "",
+    "copyright": "",
+    "studio": {
+        "label": "theme1",
+        "mobile": "false"
+    },
+    "version": "1.0.0",
+    "loadDependencies": [{
+        "id": "theme1/theme1.css",
+        "path": "THEMES_CUSTOM"
+    }
+    ],
+    "type": "custom"
+}

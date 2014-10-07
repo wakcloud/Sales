@@ -1,0 +1,15 @@
+﻿{
+    "name": "blue-oceon",
+    "author": "Oussama Bougnouch",
+    "copyright": "",
+    "studio": {
+        "label": "blue-oceon",
+        "mobile": "false"
+    },
+    "version": "1.0.0",
+    "loadDependencies": [{
+        "id": "blue-oceon/blue-oceon.css",
+        "path": "THEMES_CUSTOM"
+    }],
+    "type": "custom"
+}
